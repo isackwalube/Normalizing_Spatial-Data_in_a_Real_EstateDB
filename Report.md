@@ -8,7 +8,7 @@
   This assignment focuses on 3NF and 4NF.
 
   The initial table(PropertyDetails) created was non-normalized since the utilities column did not contain atomic values in 1NF.
-  To normalize the table to 1NF, a separate table containing Property utilities had to be made, and the column
+  To normalize the table to 1NF, a separate table containing Property utilities was created, and the column
   deleted from the first table(PropertyDetails).
   The PropertyDetails table then remained with atomic values in all columns, therefore attaining 2NF status already. 
 
